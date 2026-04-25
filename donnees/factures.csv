@@ -1,0 +1,8 @@
+numero,id_client,date_emission,date_echeance,montant_ht,taux_tva,montant_tva,montant_ttc,description,statut,date_paiement
+FA-2026-001,CLI001,2026-01-15,2026-02-14,3500.00,8.1,283.50,3783.50,Conseil RH janvier 2026,payee,2026-02-10
+FA-2026-002,CLI002,2026-02-10,2026-03-12,5200.00,8.1,421.20,5621.20,Conseil RH février + recrutement,impayee,
+FA-2026-003,CLI003,2026-02-28,2026-03-30,1800.00,8.1,145.80,1945.80,Audit politique RH,payee,2026-03-25
+FA-2026-004,CLI004,2026-03-05,2026-04-04,2400.00,8.1,194.40,2594.40,Formation 2 journées équipe,impayee,
+FA-2026-005,CLI001,2026-03-15,2026-04-14,3500.00,8.1,283.50,3783.50,Conseil RH mars 2026,impayee,
+FA-2026-006,CLI005,2026-03-20,2026-04-19,4100.00,8.1,332.10,4432.10,Mise en place politique télétravail,impayee,
+FA-2026-007,CLI002,2026-03-25,2026-04-24,3200.00,8.1,259.20,3459.20,Screening 12 candidats développeur,impayee,

@@ -1,0 +1,7 @@
+id_client,nom,contact,email,telephone,adresse,npa,ville,pays,no_tva
+CLI001,Boulangerie Dubois Sàrl,M. Dubois,facturation@boulangerie-dubois.ch,021 555 12 34,Rue du Pain 5,1003,Lausanne,CH,CHE-123.456.789
+CLI002,TechStart AG,Mme Schmid,info@techstart.ch,044 555 23 45,Bahnhofstrasse 42,8001,Zürich,CH,CHE-234.567.890
+CLI003,Cabinet Médical Léman,Dr. Rochat,admin@cabinet-leman.ch,022 555 34 56,Avenue de la Gare 18,1206,Genève,CH,CHE-345.678.901
+CLI004,Garage Aebischer SA,M. Aebischer,facturation@garage-aebischer.ch,031 555 45 67,Industriestrasse 12,3014,Bern,CH,CHE-456.789.012
+CLI005,Hotel Bellevue,M. Tognola,direction@bellevue.ch,091 555 56 78,Via Lugano 34,6900,Lugano,CH,CHE-567.890.123
+CLI006,Restaurant Le Lion d'Or,Mme Favre,contact@liondor.ch,026 555 99 88,Place du Marché 8,1700,Fribourg,CH,CHE-678.901.234

@@ -1,0 +1,13 @@
+matricule,nom,prenom,email,poste,service,canton,date_embauche,date_naissance,salaire_brut_mensuel_chf,treizieme,conges_acquis,conges_pris,no_avs,type_contrat,date_fin_periode_essai,date_fin_contrat
+EMP001,Dupont,Marie,marie.dupont@acme.ch,Cheffe de projet,IT,VD,2018-03-15,1985-06-12,8500,oui,25,12,756.1234.5678.97,CDI,,
+EMP002,Martin,Pierre,pierre.martin@acme.ch,Développeur senior,IT,GE,2020-09-01,1990-02-28,7800,oui,25,8,756.2345.6789.08,CDI,,
+EMP003,Bernard,Sophie,sophie.bernard@acme.ch,Comptable,Finance,VD,2015-06-22,1980-11-04,7000,oui,25,15,756.3456.7890.19,CDI,,
+EMP004,Petit,Lucas,lucas.petit@acme.ch,Responsable marketing,Marketing,VD,2019-01-10,1988-04-22,9200,oui,25,5,756.4567.8901.20,CDI,,
+EMP005,Robert,Julie,julie.robert@acme.ch,Assistante RH,RH,GE,2022-04-04,1995-08-19,5800,oui,25,18,756.5678.9012.31,CDI,,
+EMP006,Müller,Thomas,thomas.mueller@acme.ch,Verkäufer Senior,Vertrieb,ZH,2017-11-20,1982-09-15,7500,ja,25,10,756.6789.0123.42,CDI,,
+EMP007,Durand,Emma,emma.durand@acme.ch,UX Designer,IT,VD,2021-07-15,1992-12-30,7200,oui,25,7,756.7890.1234.53,CDI,,
+EMP008,Schneider,Antoine,antoine.schneider@acme.ch,Controller,Finance,BE,2016-02-08,1978-05-11,8500,ja,25,20,756.8901.2345.64,CDI,,
+EMP009,Laurent,Camille,camille.laurent@acme.ch,Chargée de communication,Marketing,GE,2023-03-13,1996-01-25,6000,oui,20,3,756.9012.3456.75,CDD,2023-06-13,2026-05-30
+EMP010,Weber,Hugo,hugo.weber@acme.ch,Technischer Direktor,IT,ZH,2014-09-15,1975-10-08,12500,ja,30,22,756.0123.4567.86,CDI,,
+EMP011,Fontana,Lucia,lucia.fontana@acme.ch,Stagiaire RH,RH,VD,2026-03-15,2000-05-20,4200,oui,20,2,756.1111.2222.33,CDD,2026-04-15,2026-09-15
+EMP012,Keller,David,david.keller@acme.ch,Junior Developer,IT,ZH,2026-02-01,1998-09-10,6500,ja,25,3,756.4444.5555.66,CDI,2026-05-01,
