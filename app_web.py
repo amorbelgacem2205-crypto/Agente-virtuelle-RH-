@@ -13,12 +13,32 @@ from pathlib import Path
 import streamlit as st
 from dotenv import load_dotenv
 
-# Charger les variables d'environnement
+# 1. Charger les variables d'environnement depuis .env (mode local)
 load_dotenv()
 
-# Vérification de la clé API
+# 2. Si on tourne sur Streamlit Cloud, charger les secrets dans os.environ
+#    (les modules outils utilisent os.getenv, donc on bridge st.secrets → os.environ)
+try:
+    for cle in ("ANTHROPIC_API_KEY", "LANGUE",
+                "GMAIL_ADDRESS", "GMAIL_APP_PASSWORD",
+                "OUTLOOK_ADDRESS", "OUTLOOK_APP_PASSWORD"):
+        if cle in st.secrets:
+            os.environ[cle] = str(st.secrets[cle])
+except (FileNotFoundError, AttributeError, st.errors.StreamlitSecretNotFoundError):
+    pass  # Pas de fichier secrets (mode local pur), on utilise déjà .env
+
+# 3. Vérification de la clé API
 if not os.getenv("ANTHROPIC_API_KEY"):
-    st.error("⚠️ La clé ANTHROPIC_API_KEY n'est pas configurée dans le fichier .env.")
+    st.error(
+        "⚠️ La clé **ANTHROPIC_API_KEY** n'est pas configurée.\n\n"
+        "**Localement** : crée un fichier `.env` à partir de `.env.example`.\n\n"
+        "**Sur Streamlit Cloud** : clique sur les 3 points en haut à droite → "
+        "**Settings** → **Secrets** → ajoute :\n\n"
+        "```toml\n"
+        'ANTHROPIC_API_KEY = "sk-ant-api03-..."\n'
+        'LANGUE = "FR"\n'
+        "```"
+    )
     st.stop()
 
 from agente_rh import AgenteRH
